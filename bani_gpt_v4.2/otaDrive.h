@@ -5,11 +5,11 @@
 #include <otadrive_esp.h>
 #include <WiFi.h>
 
-#define APIKEY "c19491c8-e54e-4428-8827-6125a1b98763" // OTAdrive APIkey for this product
+#define APIKEY "PUT YOUR API KEY HERE" // OTAdrive APIkey for this product
 #define FW_VER "v@1.2.19"          // this app version
 #define LED 2
-#define WIFI_SSID "Galaxy"
-#define WIFI_PASS "HONEYHIVE"
+#define WIFI_SSID "WIFI SSID"
+#define WIFI_PASS "WIFI PASSWORD"
 
 
 
