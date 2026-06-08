@@ -32,8 +32,8 @@ static lv_color_t buf[720 * 60];  // buffer for 60 rows
 #define SCREEN_HEIGHT 1280
 
 // -------- Gemini API --------
-const char* GEMINI_API_KEY = "AIzaSyCuhmTUtkBihWxY-Oz54hmpeF1Gb6UPjVY";
-const char* GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
+const char* GEMINI_API_KEY = "PLACE YOUR GEMINI API KEY HERE";
+const char* GEMINI_ENDPOINT = "PLACE YOUR GEMINI API END-POINT HERE";
                                 //"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
 
 
