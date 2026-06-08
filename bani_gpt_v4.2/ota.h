@@ -31,12 +31,12 @@ X509List certificate(telegram_cert);
 WiFiClientSecure client1;
 AsyncTelegram2 myBot(client1);
 
-const char* ssid = "Galaxy";     // REPLACE mySSID WITH YOUR WIFI SSID
-const char* pass = "HONEYHIVE";  // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
+const char* ssid = "WIFI SSID";     // REPLACE mySSID WITH YOUR WIFI SSID
+const char* pass = "WIFI PASSWORD";  // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
 //const char* token = "xxxxxxxxxxxxxx";
-const char* token = "1926551986:AAHBHLDjpy-Bsf2nKZOps_DVBlNBKeqYv6E";  // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
+const char* token = "PUT YOUR TELEGRAM TOKEN HERE";  // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
   // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
-int64_t chat_id = 846161124;  // You can discover your own chat id, with "Json Dump Bot"
+int64_t chat_id = CHAT ID;  // You can discover your own chat id, with "Json Dump Bot"
 
 #define CANCEL "CANCEL"
 #define CONFIRM "FLASH_FW"
